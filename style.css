@@ -1,0 +1,332 @@
+::placeholder{
+    color: black;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.psw{
+    width: 550px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pswimg{
+    width: 70px;
+    height: 70px;
+}
+
+.password{
+    width: 400px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.password::first-letter{
+    color: blue;
+}
+
+.verify{
+    width: 70px;
+    height: 70px;
+    background: none;
+    border: none;
+    border-radius: 35px;
+}
+
+.author{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.copyrightimg{
+    width: 30px;
+    height: 30px;
+}
+
+.author a{
+    color: white;
+    font-size: 30px;
+}
+
+.error{
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.loanbook{
+    width: 601px;
+    height: 962px;
+    background-color: black;
+}
+
+.header{
+    width: 601px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 300px;
+    height: 120px;
+}
+
+.refresh{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+}
+
+.refresh img{
+    width: 100px;
+    height: 120px;
+}
+
+.searchbtn{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+}
+
+.searchbtn img{
+    width: 70px;
+    height: 70px;
+}
+
+.searchbar{
+    position: absolute;
+    width: 601px;
+    height: 150px;
+    border-radius: 0px 0px 40px 40px;
+    background-color: white;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+    background: none;
+    margin-top: 15px;
+}
+
+.back img{
+    width: 100px;
+    height: 100px;
+}
+
+.searchinput{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px dashed;
+    outline: none;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 50px;
+    transition-duration: .5s;
+}
+
+.searchinput:focus{
+    width: 400px;
+}
+
+.tabbar{
+    width: 400px;
+    height: 70px;
+    margin-left: 100.5px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.before{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #000000ce;
+    transform: translateX(100px);
+    transition-duration: .5s;
+}
+
+.changetab{
+    width: 100px;
+    transform: translateX(-100px);
+}
+
+.tab{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tabbtn{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabbtn img{
+    width: 40px;
+    height: 40px;
+}
+
+.tabbtn p{
+    font-size: 40px;
+}
+
+#tab{
+    display: none;
+}
+
+.book{
+    width: 1202px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tabs{
+    width: 550px;
+    height: 630px;
+    border-radius: 40px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.changetabview{
+    display: none;
+}
+
+.changebookwidth{
+    width: 601px;
+}
+
+.list{
+    width: 520px;
+    height: 150px;
+    background-color: rgb(223, 219, 219);
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+}
+
+.detail{
+    width: 350px;
+    height: 130px;
+    background-color: rgb(153, 147, 147);
+    margin-right: 10px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nm_and_bal{
+    width: 200px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    align-items: start;
+    justify-content: start;
+}
+
+.nm{
+    font-size: 45px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bal{
+    font-size: 25px;
+    color: red;
+}
+
+.view{
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: none;
+    border-radius: 50px;
+}
+
+.view img{
+    width: 100px;
+    height: 100px;
+}

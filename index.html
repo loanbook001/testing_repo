@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div class="login" id="login">
+        <img src="logo1.png">
+        <div class="psw">
+            <img src="password.png" class="pswimg">
+            <input class="password" id="password" type="password" placeholder="********">
+            <button id="verify" class="verify" onclick="verify()"><img src="verify.png" width="100%" height="100%"></button>
+        </div>
+        <div id="error" class="error">Enter the PASSWORD</div>
+        <div class="author">
+            <img src="copyright.png" class="copyrightimg">
+            <a href="">Devoloped by Insaf FM.</a>
+        </div>
+    </div>
+
+    <div class="loanbook" id="loanbook">
+
+        <div class="header" id="header">
+            <img src="logo1.png" class="logo">
+            <button class="refresh" onclick="history.go(0)"><img src="refresh.png"></button>
+            <button class="searchbtn" onclick="search()"><img src="search.png"></button>
+        </div>
+
+        <div class="searchbar" id="searchbar">
+            <button class="back" onclick="back()"><img src="back.png"></button>
+            <input class="searchinput" id="searchinput" type="text" placeholder="Search here..">
+        </div>
+
+        <div class="tabbar">
+            <div class="before" id="before"></div>
+            <label for="tab" class="tab">
+                <div class="one tabbtn">
+                    <img src="all.png">
+                    <p>All</p>
+                </div>
+                <div class="two tabbtn">
+                    <img src="stared.png">
+                    <p>Stared</p>
+                </div>
+            </label>
+            <input type="checkbox" id="tab">
+        </div>
+
+        <div class="book" id="book">
+
+            <div class="all tabs curr_tab" id="all">
+
+            </div>
+            
+            <div class="stared tabs" id="stared">
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
